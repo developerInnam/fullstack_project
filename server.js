@@ -7,13 +7,11 @@ app.use(cors());
 app.use(express.json());
 
 // MySQL connection
-require("dotenv").config(); // load .env variables
-
 const db = mysql.createConnection({
-  host: process.env.DB_HOST,
-  user: process.env.DB_USER,
-  password: process.env.DB_PASSWORD,
-  database: process.env.DB_NAME,
+  host: "sql101.infinityfree.com",
+  user: "if0_39724776",
+  password: "innamalmahdi",
+  database: "if0_39724776_curd_data",
 });
 
 db.connect((err) => {
