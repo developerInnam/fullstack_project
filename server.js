@@ -8,10 +8,10 @@ app.use(express.json());
 
 // MySQL connection
 const db = mysql.createConnection({
-  host: "sql101.infinityfree.com",
-  user: "if0_39724776",
-  password: "innamalmahdi",
-  database: "if0_39724776_curd_data",
+  host: "dpg-d2i75f6mcj7s73e2ima0-a",
+  user: "crud_bata_user",
+  password: "990bhyf6Nlyau9PsJxv1yUG31cWFc5Gr",
+  database: "crud_bata",
 });
 
 db.connect((err) => {
